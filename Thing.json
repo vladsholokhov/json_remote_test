@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/vladsholokhov/json_remote_test/main/type.json#",
+	"$schema": "https://json-ld.org/schemas/jsonld-schema.json",
 	"title": "sometitle",
 	"description": "The most generic type of item.",
 	"allOf": [
@@ -7,16 +7,7 @@
 		{
 			"type": "object",
 			"properties": {
-				"additionalType": { "$ref": "additionalType.prop.jsd" },
-				"description": { "$ref": "description.prop.jsd" },
-				"disambiguatingDescription": { "$ref": "disambiguatingDescription.prop.jsd" },
-				"identifier": { "$ref": "identifier.prop.jsd" },
-				"image": { "$ref": "image.prop.jsd" },
-				"mainEntityOfPage": { "$ref": "mainEntityOfPage.prop.jsd" },
-				"name": { "$ref": "name.prop.jsd" },
-				"potentialAction": { "$ref": "potentialAction.prop.jsd" },
-				"sameAs": { "$ref": "sameAs.prop.jsd" },
-				"url": { "$ref": "url.prop.jsd" }
+				"additionalType": {}
 			}
 		}
 	]
