@@ -1,7 +1,6 @@
 {
-	"$schema": "https://github.com/vladsholokhov/json_remote_test/blob/main/type.json#",
-	"$id": "https://chharvey.github.io/schemaorg-jsd/schema/Thing.jsd",
-	"title": "http://schema.org/Thing",
+	"$schema": "https://raw.githubusercontent.com/vladsholokhov/json_remote_test/main/type.json#",
+	"title": "sometitle",
 	"description": "The most generic type of item.",
 	"allOf": [
 		{ "$ref": "https://json-ld.org/schemas/jsonld-schema.json" },
