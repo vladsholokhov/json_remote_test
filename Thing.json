@@ -1,5 +1,5 @@
 {
-	"$schema": "https://chharvey.github.io/schemaorg-jsd/meta/type.jsd#",
+	"$schema": "https://github.com/vladsholokhov/json_remote_test/blob/main/type.json#",
 	"$id": "https://chharvey.github.io/schemaorg-jsd/schema/Thing.jsd",
 	"title": "http://schema.org/Thing",
 	"description": "The most generic type of item.",
